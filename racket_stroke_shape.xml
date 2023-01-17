@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="@dimen/board_width_eight"
+        android:height="@dimen/racket_height_eight_grid"/>
+    <solid android:color="@color/racket_background_color"/>
+    <stroke android:color="@color/board_stroke_color" android:width="@dimen/racket_stroke_width"/>
+    <gradient
+        android:startColor="#9B5BEA"
+        android:endColor="@color/purple_700"
+        android:type="linear"
+        android:angle="90" />
+</shape>
